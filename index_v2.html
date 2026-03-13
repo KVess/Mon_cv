@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Data Analyst</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- Progress bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <!-- En-tête -->
+    <header>
+        <div class="container header-content">
+            <!-- <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Photo de profil" class="profile-img"> -->
+            <img src="img/moi_3.jpg" alt="Photo de profil" class="profile-img">
+            <h1>Djié KOUASSI</h1>
+            <div class="title">
+                IT Developper - Architect - Data Analyst
+            </div>
+            <!-- <div class="title">Architect</div>
+            <div class="title">Data Analyst</div> -->
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>djiekouassi@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+225 0566738360</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Abidjan, Côte d'Ivoire</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-container">
+            <ul class="nav-links">
+                <li><a href="#about" class="active">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#education">Formation</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- À propos -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="card">
+                <p class="about-text">
+                    Data Analyst expérimenté avec plus de 8 ans d'expertise dans l'analyse de données, la visualisation et la gestion de bases de 
+                    données. Spécialisé dans l'utilisation d'outils tels que SQL, Python, et Power BI pour transformer des données brutes en 
+                    insights exploitables. Passionné par la résolution de problèmes complexes et la création de tableaux de bord interactifs pour 
+                    faciliter la prise de décision. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Mes compétences</h2>
+            <div class="skills-container">
+                <div class="skill-category card">
+                    <h3>Analyse de données</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>SQL</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Python (Pandas, NumPy)</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Excel</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="85%"></div>
+                        </div>
+                    </div>
+                    <!-- <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Statistiques</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="90%"></div>
+                        </div>
+                    </div> -->
+                </div>
+
+                <div class="skill-category card">
+                    <h3>Visualisation</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Power BI</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Looker Studio</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>JavaScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="80%"></div>
+                        </div>
+                    </div>
+                    <!-- <div class="skill-item">
+                        <div class="skill-name">
+                            <span>D3.js</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="70%"></div>
+                        </div>
+                    </div> -->
+                </div>
+
+                <div class="skill-category card">
+                    <h3>Base de données</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>MySQL</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>PostgreSQL</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>MongoDB</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="75%"></div>
+                        </div>
+                    </div>
+                    <!-- <div class="skill-item">
+                        <div class="skill-name">
+                            <span>BigQuery</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="80%"></div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expérience -->
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title">Mon expérience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2021 - Présent</div>
+                        <h3 class="timeline-role">Data Analyst Senior</h3>
+                        <div class="timeline-company"> LUMOS-CI, Abidjan</div>
+                        
+                            <div style="margin: 20px;">
+                                <ul>
+                                    <li>Conception et mise en œuvre de modèles de données pour optimiser la prise de décision.</li>
+                                    <li>Automatisation des processus de collecte, de nettoyage et de transformation de données avec Python et SQL, réduisant le temps de traitement de 25 %.</li>
+                                    <li>Création de tableaux de bord interactifs avec Power BI et Tableau pour visualiser les KPI et faciliter l'analyse des tendances.</li>
+                                    <li>Collaboration avec les équipes métiers pour identifier les besoins en données et fournir des insights exploitables.</li>
+                                </ul>
+                            </div>
+
+                        <!-- <p>
+                            Conception et mise en œuvre de modèles de données pour optimiser la prise de décision.
+                            Automatisation des processus de collecte, de nettoyage et de transformation de données avec Python et SQL, réduisant le temps de traitement de 25 %.
+                            Création de tableaux de bord interactifs avec Power BI et Tableau pour visualiser les KPI et faciliter l'analyse des tendances.
+                            Collaboration avec les équipes métiers pour identifier les besoins en données et fournir des insights exploitables.
+                        </p> -->
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Octobre 2016 – Juillet 2021</div>
+                        <h3 class="timeline-role">Analyst et Developpeur Full-Stack</h3>
+                        <div class="timeline-company">MODELIS-TECH, Abidjan</div>
+
+                            <div style="margin: 20px;">
+                                <ul>
+                                    <li>Création de rapports automatisés et de visualisations de données pour les clients.</li>
+                                    <li>Management de projet, analyste développeur Data et Full-Stack.</li>
+                                    
+                                </ul>
+                            </div>
+
+                        <!-- <p>
+                            Analyse des données utilisateurs pour optimiser l'expérience client. Mise en place de processus ETL et génération de rapports mensuels pour la direction.
+                        </p> -->
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+
+                       
+
+
+                        <div class="timeline-date">Décembre 2014 – Juillet 2015</div>
+                        <h3 class="timeline-role">Chef de Prejet Informatique</h3>
+                        <div class="timeline-company">DHL GLOBAL FORWARDING, Abidjan</div>
+
+                        <div style="margin: 20px;">
+                            <ul>
+                                <li>Analyse des données logistiques et création de feuilles de calcul pour le suivi des KPI avec Excel.</li>
+                                <li>Conception d'une application de gestion métier avec ASP.NET MVC pour optimiser les processus internes.</li>
+                                
+                            </ul>
+                        </div>                        
+
+                        <!-- <p>
+                            Support à l'équipe data dans la collecte et le nettoyage des données. Création de visualisations simples et assistance dans la préparation des présentations.
+                        </p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Projets -->
+<section id="projects">
+    <div class="container">
+        <h2 class="section-title">Mes projets</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-img">Automatisation des collecte et analyse de données </div>
+                <div class="project-content">
+                    <h3 class="project-title">Réduire le temps de traitement des données</h3>
+                    <p>Amélioration de l'efficacité opérationnelle et réduction des erreurs manuelles  de 50%.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python (Pandas, NumPy)</span>
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">Excel</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">Dashboard Metier</div>
+                <div class="project-content">
+                    <h3 class="project-title">Insights en temps réel, prise de décision efficace.</h3>
+                    <p>Augmentation de la satisfaction des utilisateurs finaux de 30 %</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">Looker Studio</span>
+                        <span class="tech-tag">Batch</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">(SIG) Pour le cadastre et les reseaux electriques</div>
+                <div class="project-content">
+                    <h3 class="project-title">Centraliser et analyser les données géospatiales</h3>
+                    <p>Amélioration de la précision des données de 20 % et amélioration de planification expension.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">QGIS</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">PostGIS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>    
+
+<!-- Formation -->
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title">Ma formation</h2>
+            <div class="education-grid">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="education-title">Master en Science des Données</h3>
+                    <div class="education-date">2014 - 2016</div>
+                    <p>Université Paris-Saclay</p>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="education-title">Licence en Mathématiques Appliquées</h3>
+                    <div class="education-date">2011 - 2014</div>
+                    <p>Université Claude Bernard, Lyon</p>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 class="education-title">Certification Tableau Desktop</h3>
+                    <div class="education-date">2019</div>
+                    <p>Tableau Software</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Me contacter</h2>
+            <div class="contact-container">
+                <div class="contact-form card">
+                    <h3>Envoyez-moi un message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nom</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Envoyer</button>
+                    </form>
+                </div>
+                <div class="contact-info-card">
+                    <h3>Coordonnées</h3>
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Adresse</h4>
+                                <p>15 Rue de la Data, 75015 Paris</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4>Téléphone</h4>
+                                <p>+33 6 12 34 56 78</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>thomas.martin@email.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-medium-m"></i></a>
+            </div>
+            <p>&copy; 2023 Thomas Martin - Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"> </script>
+</body>
+</html>
